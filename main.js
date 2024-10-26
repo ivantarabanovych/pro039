@@ -1,5 +1,4 @@
-const add = require('./math');
+import { capitalize } from './stringUtils.js';
 
-const result = add(4, 5);
-console.log(result);
-
+const result = capitalize("run forest, run!");
+console.log("Капіталізований рядок:", result);
